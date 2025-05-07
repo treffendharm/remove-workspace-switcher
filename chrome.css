@@ -1,3 +1,5 @@
-#zen-current-workspace-indicator-container {
-    display: none;
+@media (-moz-bool-pref: "zen.tabs.vertical") {
+    #zen-current-workspace-indicator-container {
+        display: none;
+    }
 }
